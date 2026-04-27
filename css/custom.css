@@ -1,0 +1,182 @@
+/* ============================================================
+   British Pizza Nikol – Custom Styles
+   Extracted from inline styles for standards compliance.
+   ============================================================ */
+
+/* ---------- Brand Variables ---------- */
+:root {
+  --brand: #e63329;
+  --brand-dark: #c0251c;
+  --gold: #f5a623;
+}
+
+/* ---------- Utility Badges ---------- */
+.brand-badge {
+  background: var(--brand);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.highlight-badge {
+  background: #fff3cd;
+  color: #856404;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: .8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin: 2px;
+}
+
+.menu-badge {
+  background: #fff3cd;
+  color: #856404;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: .75rem;
+  font-weight: 600;
+  margin: 2px;
+  display: inline-block;
+}
+
+/* ---------- Rating Stars ---------- */
+.rating-stars {
+  color: var(--gold);
+}
+
+/* ---------- Review Cards ---------- */
+.review-card {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+}
+
+/* ---------- Contact Info Cards ---------- */
+.contact-info-card {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .07);
+  text-align: center;
+}
+
+.contact-info-card .icon {
+  font-size: 2rem;
+  color: var(--brand);
+  margin-bottom: 12px;
+}
+
+/* ---------- Hours Table ---------- */
+.hours-table td {
+  padding: 6px 12px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.hours-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- Category Title (Menu page) ---------- */
+.category-title {
+  border-left: 4px solid var(--brand);
+  padding-left: 12px;
+  margin-bottom: 24px;
+}
+
+/* ---------- Map iframe wrapper ---------- */
+.map-iframe-wrap {
+  width: 100%;
+  min-height: 450px;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* ---------- Section Backgrounds ---------- */
+.bg-light-red {
+  background: #fff8f8;
+  padding-bottom: 10px;
+}
+
+.bg-light-grey {
+  background: #f9f9f9;
+}
+
+/* ---------- Buffet Pricing Cards ---------- */
+.buffet-price-card {
+  border: 2px solid var(--brand);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.buffet-price-card h4 {
+  color: var(--brand);
+}
+
+.buffet-price-card--free {
+  border-color: #28a745;
+}
+
+.buffet-price-card--free h4 {
+  color: #28a745;
+}
+
+/* ---------- Social Proof Disclaimer ---------- */
+.pricing-note {
+  color: #6c757d;
+  font-size: .85rem;
+}
+
+/* ---------- Loader colour override ---------- */
+#ftco-loader .path {
+  stroke: var(--brand);
+}
+
+/* ---------- Footer star colour ---------- */
+.footer-stars {
+  color: var(--gold);
+}
+
+/* ---------- Call link in contact card ---------- */
+.call-link {
+  color: var(--brand);
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.call-link:hover {
+  color: var(--brand-dark);
+  text-decoration: underline;
+}
+
+/* ---------- Text-dark utility (Bootstrap compat) ---------- */
+.text-dark {
+  color: #333 !important;
+}
+
+/* ---------- Rating number display ---------- */
+.rating-number {
+  font-size: 2rem;
+  color: var(--brand);
+}
+
+.rating-stars-large {
+  font-size: 1.4rem;
+}
+
+/* ---------- Price superscript ---------- */
+.price-sup {
+  font-size: .6em;
+}
