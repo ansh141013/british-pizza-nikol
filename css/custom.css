@@ -180,3 +180,42 @@
 .price-sup {
   font-size: .6em;
 }
+
+/* ============================================================
+   MOBILE SCROLL FIX
+   Ensures the page remains scrollable on mobile devices.
+   ============================================================ */
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  touch-action: auto;
+}
+
+/* Fix for background-attachment: fixed on mobile (causes scroll lag/jank) */
+@media (max-width: 991.98px) {
+  body {
+    background-attachment: scroll !important;
+  }
+  
+  .navbar-collapse.show {
+    max-height: 80vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Ensure sections don't block scroll */
+section {
+  overflow: visible !important;
+}
+
+
